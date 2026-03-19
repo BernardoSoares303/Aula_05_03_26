@@ -1,3 +1,5 @@
+@import url(Cartao.css);
+
 *{
     font-family: 'Segoe Ui', Arial, sans-serif;
     font-size: 25px;
@@ -53,8 +55,23 @@ footer{
     /* border: .1rem solid green; */
     background-color: #fd6a9b;
     color: #000000;
+    font-size: 12px;
     height: 2rem;
     padding: .5rem;
     align-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+textfooter{
+    font-size: 15.5px;
+    text-align: center;
+}
+
+#git{
+    color: #000000;
+    font-size: 15.5px;
+    text-align: center;
+}
+
