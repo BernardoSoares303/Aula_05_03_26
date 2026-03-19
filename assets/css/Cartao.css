@@ -35,3 +35,18 @@
     justify-content: space-between;
     margin-bottom: .5rem;
 }
+
+.Botao_Cartao{
+    background-color: blue;
+    color: #ccc;
+    border-radius: .5rem;
+    text-align: center;
+    padding: .3rem;
+    text-decoration: none;
+    margin-top: .5rem;
+}
+
+.Botao_Cartao:hover{
+    background-color: #14016b;
+    color: white;
+}
