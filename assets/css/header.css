@@ -48,3 +48,11 @@ header {
     background-color: #ffc76d;
     cursor: pointer;
 }
+
+.Menu-Hamburguer i{
+    color: #ffffff;
+}
+
+.Menu-Hamburguer i:hover{
+    color: #000000;
+}
