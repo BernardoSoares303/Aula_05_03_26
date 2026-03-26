@@ -1,0 +1,50 @@
+header {
+    /* border: .1rem solid red; */
+    background-color: #f69a0b;
+    color: #9b0800;
+    height: 2rem;
+    padding: .5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+}
+
+.logo{
+    border: .1rem #fdbf5c solid;
+    background-color: #fdbf5c;
+    color: #d43a00;
+    font-weight: bold;
+    border-radius: 100%;
+    width: .8rem;
+    height: .8rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+}
+
+.titulo{
+    flex: 1;
+    /* border: .1rem white solid; */
+}
+
+.Menu-Hamburguer{
+    /* border: white solid; */
+    margin-left: auto;
+    border-radius: 100%;
+    width: .5rem;
+    height: .5rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Menu-Hamburguer:hover{
+    background-color: #ffc76d;
+    cursor: pointer;
+}

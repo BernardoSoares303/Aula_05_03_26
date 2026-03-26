@@ -1,4 +1,5 @@
 @import url(Cartao.css);
+@import url(header.css);
 
 *{
     font-family: 'Segoe Ui', Arial, sans-serif;
@@ -18,19 +19,6 @@ body{
     flex-direction: column;
 }
 
-
-header {
-    /* border: .1rem solid red; */
-    background-color: #fd6a9b;
-    color: #000000;
-    height: 2rem;
-    padding: .5rem;
-    display: flex;
-    /* justify-content: center; */
-    align-content: center;
-    align-items: center;
-}
-
 section {
     /* border: .1rem solid blue; */
     display: flex;
@@ -40,7 +28,9 @@ section {
 nav{
     /* border: .1rem solid orangered; */
     width: 8rem;
-    background-color: #bebebe;
+    background-color: #ffae00;
+    color: #9b0800;
+    font-weight: bold;
     padding: .5rem;
 }
 
@@ -53,10 +43,10 @@ main{
 
 footer{
     /* border: .1rem solid green; */
-    background-color: #fd6a9b;
-    color: #000000;
-    font-size: 12px;
-    height: 2rem;
+    background-color: #f69a0b;
+    color: #9b0800;
+    font-size: 5px;
+    height: 1rem;
     padding: .5rem;
     align-content: center;
     display: flex;
@@ -65,13 +55,13 @@ footer{
 }
 
 textfooter{
-    font-size: 15.5px;
+    font-size: 10.5px;
     text-align: center;
 }
 
 #git{
-    color: #000000;
-    font-size: 15.5px;
+    color: #9b0800;
+    font-size: 10.5px;
     text-align: center;
 }
 
